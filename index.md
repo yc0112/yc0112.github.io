@@ -30,7 +30,7 @@
           color: orange;
           font: 30px;
           font-family: monospace;
-          background-color: silver;
+          background-color: yellow;
   }
 </style>
 
