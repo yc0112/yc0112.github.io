@@ -1,28 +1,28 @@
 <style>
   h1 {
          color: green;
-         font:  60px;
+         font:  70px;
      }
 </style>
 <style>
   h2 {
-         font:  50px;
+         font:  60px;
      }
 </style>
 <style>
   h3 {
-         font:  50px;
+         font:  60px;
      }
 </style>
 <style>
   h4 {
-         font: 50px;
+         font: 60px;
      }
 </style>
 <style>
   .first{
           color: red;
-          font: 40px;
+          font: 45px;
   }
 </style>
 <style>
