@@ -1,5 +1,4 @@
-<h1> 我的web課程 </h1>
-<h1 style="color: blue;">我的web課程</h2>
+<h1 style="color: blue;">我的web課程</h1>
 <h2>我的第一個作業</h2>
         <img src="https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/121823230_267690574525869_8268864735869786320_n.png?_nc_cat=104&_nc_sid=ae9488&_nc_ohc=2KM2ISyUEuEAX9yH7lH&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=2d7a2984699d8c473052276e38114895&oe=5FB1A2A5">
         <p>心得:</p>
