@@ -21,13 +21,13 @@
 </style>
 <style>
   .first{
-          color: red;
+          color: orange;
           font: 45px;
   }
 </style>
 <style>
   .second{
-          color: orange;
+          color: red;
           font: 30px;
           font-family: monospace;
           background-color: yellow;
