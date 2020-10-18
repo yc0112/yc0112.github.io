@@ -30,8 +30,10 @@
           color: orange;
           font: 30px;
           font-family: monospace;
+          background-color: silver;
   }
 </style>
+
 <h1>我的web課程</h1>
 
 <h2 style="color: blue;">我的第一個作業</h2>
