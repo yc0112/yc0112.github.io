@@ -21,7 +21,7 @@
 </style>
 <style>
   .first{
-          color: yellow;
+          color: red;
           font: 40px;
   }
 </style>
@@ -33,7 +33,7 @@
 </style>
 <h1>我的web課程</h1>
 
-<h2 style="color: orange;">我的第一個作業</h2>
+<h2 style="color: blue;">我的第一個作業</h2>
 <div>
          <p class="first">心得:</p>
          <p class="second">一開始只有註冊和自我介紹而已，所以途中並沒有遇到太大問題，順順利利的完成這項作業</p>
@@ -48,7 +48,7 @@
 <h4 style="color: orange;">我的第三個作業</h4>
 <div>
         <p class="first">心得:</p>
-        <p class="second">心得:</p>第三個的第一項因為不知道做錯了哪裡所以重作第二次，第二項比較簡單但較花時間</p>
+        <p class="second">第三個的第一項因為不知道做錯了哪裡所以重作第二次，第二項比較簡單但較花時間</p>
         <img src="https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/121011795_1997790367024364_5278580373879706945_n.png?_nc_cat=103&_nc_sid=ae9488&_nc_ohc=UtjZ4qTIGwUAX-n1dAW&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=80bdd2953fbe11518df8c46cae7e88ca&oe=5FB2D77E">
         <img src="https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/121616394_2842736459279114_1869354341385486119_n.png?_nc_cat=106&_nc_sid=ae9488&_nc_ohc=WeXAw3ccXU8AX9UnHlg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=9a79058d577864f8b3279ec7ad54ea7c&oe=5FB0D2DB"></div>
    
