@@ -29,6 +29,7 @@
   .second{
           color: orange;
           font: 30px;
+          font-family: monospace;
   }
 </style>
 <h1>我的web課程</h1>
