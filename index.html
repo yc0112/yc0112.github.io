@@ -5,13 +5,13 @@
   document.addEventListener('DOMContentLoaded', function(){
   document.getElementById('success').onclick = function(){
       const req = new XMLHttpRequest();
-      req.open("GET",'https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous', true);
+      req.open("GET",'https://photos.google.com/photo/AF1QipMhwpz0DDGoRsNpy5AGaVObfR8ft3EiED41nx4y', true);
       req.send();
       req.onload=function(){
         let json = JSON.parse(req.responseText);
         let html = "";
          json.forEach(function(val) {
-           html += "<div class = 'cat'>"
+           html += "<div class = 'success'>"
 
            html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>"
 
