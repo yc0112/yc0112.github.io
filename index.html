@@ -15,7 +15,7 @@
         let json = JSON.parse(req.responseText);
         let html = "";
          json.forEach(function(val) {
-           html += "<div class = 'success'>"
+           html += "class="btn btn-block btn-primary"
 
            html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>"
 
