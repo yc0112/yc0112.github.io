@@ -1,7 +1,9 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <!DOCTYPE html>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <script>
-  $("button").addClass("animated shake");
+  $(document).ready(function() {
+  $("button").addClass("animated shake");});
 </script>
 
 <style>
@@ -49,6 +51,20 @@
          <img src="https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/121823230_267690574525869_8268864735869786320_n.png?_nc_cat=104&_nc_sid=ae9488&_nc_ohc=2KM2ISyUEuEAX9yH7lH&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=2d7a2984699d8c473052276e38114895&oe=5FB1A2A5">
          <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> success</button>
         <button class="btn-danger btn-block">fail</button></div>
+ document.addEventListener('DOMContentLoaded', function(){
+    document.getElementById('getMessage').onclick = function(){
+      const req = new XMLHttpRequest();
+         json.forEach(function(val) {
+           html += "<div class = 'cat'>"
+
+           html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>"
+
+           html += "</div>"
+         });
+         document.getElementsByClassName('success')[0].innerHTML = html;
+       };
+     };
+  });
         
 <h3 style="color: blue;">我的第二個作業</h3>
 <div>
@@ -64,4 +80,3 @@
         <img src="https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/121616394_2842736459279114_1869354341385486119_n.png?_nc_cat=106&_nc_sid=ae9488&_nc_ohc=WeXAw3ccXU8AX9UnHlg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=9a79058d577864f8b3279ec7ad54ea7c&oe=5FB0D2DB">
         <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> success</button>
         <button class="btn-danger btn-block">fail</button></div>
-   
