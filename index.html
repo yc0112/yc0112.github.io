@@ -5,27 +5,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 <link rel="stylesheet" href="animate.min.css">
-<script>
-  document.addEventListener('DOMContentLoaded', function(){
-  document.getElementById('success').onclick = function(){
-      const req = new XMLHttpRequest();
-      req.open("success",' https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/121823230_267690574525869_8268864735869786320_n.png?_nc_cat=104&_nc_sid=ae9488&_nc_ohc=2KM2ISyUEuEAX9yH7lH&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=2d7a2984699d8c473052276e38114895&oe=5FB1A2A5');
-      req.send();
-      req.onload=function(){
-        let json = JSON.parse(req.responseText);
-        let html = "";
-         json.forEach(function(val) {
-           html += "class="btn btn-block btn-primary"
 
-           html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>"
-
-           html += "</div>"
-         });
-         document.getElementsByClassName('success')[0].innerHTML = html;
-       };
-     };
-  });
-</script>
 <script>
   $(document).ready(function() {
     $("button").addClass("animated bounce");
@@ -84,6 +64,7 @@
         <img src="https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/120316559_3219833378142187_6357547118045321120_n.png?_nc_cat=104&_nc_sid=ae9488&_nc_ohc=s4N5MaqRZeEAX9BCTo_&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=6d6d092040eab6b92c9888831b3e3a68&oe=5FB195E9">
         <button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> success</button>
         <button class="btn-danger btn-block">fail</button></div>
+        <button type="button"><img src="https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/121011795_1997790367024364_5278580373879706945_n.png?_nc_cat=103&_nc_sid=ae9488&_nc_ohc=UtjZ4qTIGwUAX-n1dAW&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=80bdd2953fbe11518df8c46cae7e88ca&oe=5FB2D77E"></button>
 <div>
         <p class="first">心得:</p>
         <p class="second">第三個的第一項因為不知道做錯了哪裡反覆看了很多遍最後決定重作第二次，第二項雖然比較花時間但覺得內容比其他幾個作業直觀學習的過程中覺得還蠻好玩的</p>
