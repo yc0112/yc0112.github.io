@@ -1,11 +1,13 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <!DOCTYPE html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <script>
   document.addEventListener('DOMContentLoaded', function(){
   document.getElementById('success').onclick = function(){
       const req = new XMLHttpRequest();
-      req.open("GET",'https://photos.google.com/photo/AF1QipMhwpz0DDGoRsNpy5AGaVObfR8ft3EiED41nx4y', true);
+      req.open("success",'https://photos.google.com/photo/AF1QipMhwpz0DDGoRsNpy5AGaVObfR8ft3EiED41nx4y', true);
       req.send();
       req.onload=function(){
         let json = JSON.parse(req.responseText);
@@ -24,9 +26,9 @@
 </script>
 <script>
   $(document).ready(function() {
-  $("button").addClass("animated shake");});
+    $("button").addClass("animated bounce");
+  });
 </script>
-
 <style>
   h1 {
          color: green;
